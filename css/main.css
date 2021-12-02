@@ -1,3 +1,11 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: "Gill Sans";
+}
 
 body{
     background-color: cyan;
@@ -5,7 +13,6 @@ body{
 
 .container{
     display: inline-block;
-    background-color: green;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
     margin-top: 150px;
@@ -40,7 +47,7 @@ body{
     display: inline-block;
     background-color: yellow;
     width: 60%;
-
+    padding: 50px;
 }
 
 .close{
