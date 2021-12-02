@@ -45,7 +45,7 @@ body{
 .right-column{
     float: right;
     display: inline-block;
-    background-color: yellow;
+    background-color: white;
     width: 60%;
     padding: 50px;
 }
@@ -72,12 +72,20 @@ body{
 label{
     display: inline-block;
     width: 100%;
-    color: rgb(136, 126, 126);
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
 }
 
 input{
     display: inline-block;
     width: 100%;
+    font-size: 20px;
+    line-height: 35px;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 button{
