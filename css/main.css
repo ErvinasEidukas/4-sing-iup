@@ -1,10 +1,10 @@
 body,
 body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
-    font-family: "Gill Sans";
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
 }
 
 body{
@@ -55,6 +55,39 @@ body{
 }
 
 .form{
+    display: inline-block;
+    width: 100%;
+}
+
+.form-row{
+    display: inline-block;
+    width: 100%;
+}
+
+/* Intresting soliution */
+.form-row + .form-row{
+    margin-top: 40px;
+}
+
+label{
+    display: inline-block;
+    width: 100%;
+    color: rgb(136, 126, 126);
+}
+
+input{
+    display: inline-block;
+    width: 100%;
+}
+
+button{
 
 }
 
+.form-row > span {
+
+}
+
+.form-row > a{
+
+}
