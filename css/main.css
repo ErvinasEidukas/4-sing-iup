@@ -28,9 +28,8 @@ body{
 .left-column{
     float: left;
     display: inline-block;
-    background-color:  red;
+    background-color:  rgb(14, 11, 212);
     width: 40%;
-    height: 500px;
 
     background-image: url(../image/kalnas.jpg);
     background-size: cover;
@@ -45,6 +44,7 @@ body{
 .main-title{
     color: white;
     margin-left: 10%;
+    margin-top: 20px;
 }
 
 .bottom-links{
@@ -96,8 +96,13 @@ body{
     width: 100%;
 }
 
-/* ? */
-.form-row::placeholder{
+/* Mistake */
+/* .form::placeholder */
+
+/* Good */
+/* .form ::placeholder */
+
+.form ::placeholder{
     color: red;
     
 }
